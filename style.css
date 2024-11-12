@@ -95,3 +95,111 @@ h1 {
     width: 100px;
     border-radius: 50%;
 }
+
+.temperatura{
+    margin: 10px;
+    color: #FFF;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.info {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+.info .temp {
+    flex: 1;
+    text-align: center;
+}
+
+.ventoTitulo {
+    color: #4f4f52;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.ventoInfo {
+    margin: 15px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tempInfo {
+    text-transform: capitalize;
+}
+
+.tempoInfo sup {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.ventoInfo span {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.ventoArea {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.ventoPonto {
+    width: 15px;
+    height: 1px;
+    background-color: #FFF;
+    transform-origin: left;
+}
+
+.aviso {
+    margin-top: 100px;
+    color: #FFF;
+    padding-top: 20px;
+}
+
+footer {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 13px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+@media (max-width: 400px){
+
+    .container{
+        height: 400px;
+        width: 350px;
+    }
+    .busca{
+        width: 280px;
+    }
+    .busca img{
+        width: 15px;
+    }
+    .busca button{
+        width: 47px;
+    }
+    .temperatura{
+        font-size: 30px;
+    }
+    .titulo{
+        font-size: 20px;
+    }
+    .tempInfo{
+        font-size: 15px;
+    }
+}
