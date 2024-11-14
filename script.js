@@ -39,11 +39,11 @@ document.querySelector('.busca').addEventListener('submit', async (event)=>{
 function showInfo(json){
     showWarning('');
     document.querySelector('.resultado').style.display= 'block';
-    document.querySelector('titulo').innerHTML= `${json.name}, ${json.country}`;
-    document.querySelector('temperatura').innerHTML = `${json.temp} <sup>ºC</sup>`;
-    document.querySelector('ventoInfo').innerHTML = `${json.windSpeed} <span>km/h</span>`;
-    document.querySelector('tempInfo').innerHTML = `${json.descri}`;
-    document.querySelector('informacoes img').setAttribute('scr',`./img/${json.tempIcon}.gif`); 
+    document.querySelector('.titulo').innerHTML= `${json.name}, ${json.country}`
+    document.querySelector('.temperatura').innerHTML = `${json.temp} <sup>ºC</sup>`;
+    document.querySelector('.ventoInfo').innerHTML = `${json.windSpeed} <span>km/h</span>`;
+    document.querySelector('.tempInfo').innerHTML = `${json.descri}`;
+    document.querySelector('.informacoes img').setAttribute('scr',`./img/${json.tempIcon}.gif`); 
 
 
 }
